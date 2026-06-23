@@ -154,7 +154,10 @@ Or just **[view the live demo](#)** — deployed on Netlify.
 
 ## 📸 &nbsp;Screenshots
 
-> *Add screenshots of Dashboard, Students table, Attendance view, and Mobile here.*
+| | |
+|---|---|
+| ![Dashboard](screenshots/dashboard.png) | ![Students](screenshots/students.png) |
+| ![Attendance](screenshots/attendance.png) | ![Mobile](screenshots/mobile.png) |
 
 ---
 
