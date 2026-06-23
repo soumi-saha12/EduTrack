@@ -244,11 +244,29 @@
       gap: 20px;
     }
 
+    .dropdown-container,
+    .profile-widget {
+      flex-shrink: 0;
+    }
+
     /* Search bar design */
     .search-wrapper {
       position: relative;
       width: 260px;
+      max-width: 260px;
       transition: var(--transition);
+      margin-left: auto;
+    }
+
+    .search-wrapper:focus-within {
+      width: 300px;
+      max-width: 300px;
+    }
+
+    /* Hide search bar on Dashboard and Settings views */
+    .main-workspace:has(#dashboard-view.active) .search-wrapper,
+    .main-workspace:has(#settings-view.active) .search-wrapper {
+      display: none;
     }
 
     .search-wrapper svg {
@@ -278,7 +296,7 @@
     .search-input:focus {
       border-color: var(--accent-color);
       box-shadow: 0 0 0 3px var(--accent-glow);
-      width: 300px;
+      width: 100%;
     }
 
     /* Interactive Icon Buttons */
@@ -1580,15 +1598,28 @@
       }
 
       .nav-right {
-        justify-content: space-between;
+        justify-content: flex-end;
+        flex-wrap: wrap;
       }
 
       .search-wrapper {
         width: 100%;
+        max-width: 100%;
+        order: 2;
+      }
+
+      .search-wrapper:focus-within {
+        width: 100%;
+        max-width: 100%;
       }
 
       .search-input:focus {
         width: 100%;
+      }
+
+      .dropdown-container,
+      .profile-widget {
+        order: 1;
       }
 
       /* Dashboard Grid */

@@ -28,7 +28,7 @@
 
 <br/>
 
-**[✦ Live Demo](#)** &nbsp;·&nbsp; **[Report a Bug](#)** &nbsp;·&nbsp; **[Request Feature](#)**
+**[✦ Live Demo](https://edutrack-sd.netlify.app/)** &nbsp;·&nbsp; **[Report a Bug](#)** &nbsp;·&nbsp; **[Request Feature](#)**
 
 <br/>
 
@@ -112,7 +112,7 @@ cd edutrack-dashboard
 open index.html
 ```
 
-Or just **[view the live demo](#)** — deployed on Netlify.
+Or just **[view the live demo](https://edutrack-sd.netlify.app/)** — deployed on Netlify.
 
 ---
 
@@ -165,7 +165,7 @@ Or just **[view the live demo](#)** — deployed on Netlify.
 
 <br/>
 
-*Built by* **Soumi Saha** *·  *
+*Built by* **Soumi Saha** 
 
 <br/>
 
