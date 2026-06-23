@@ -124,6 +124,9 @@
       if (saved) {
         try {
           appState = JSON.parse(saved);
+          if (appState.adminName === "Alex") {
+            appState.adminName = "Teacher";
+          }
         } catch (e) {
           console.error("Failed to parse state", e);
         }
