@@ -26,7 +26,7 @@
 
     // --- Global Application State ---
     let appState = {
-      adminName: "Alex",
+      adminName: "Teacher",
       adminEmail: "alex@auraacademy.edu",
       themeAccent: "#C9A84C",
       students: [],
