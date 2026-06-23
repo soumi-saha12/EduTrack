@@ -24,6 +24,7 @@
 ![localStorage](https://img.shields.io/badge/data-localStorage-C9A84C?style=flat-square)
 ![Mobile Ready](https://img.shields.io/badge/mobile-responsive-637F55?style=flat-square)
 ![Lines](https://img.shields.io/badge/3000%2B-lines_of_code-7A726A?style=flat-square)
+![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-2C2620?style=flat-square)
 
 <br/>
 
